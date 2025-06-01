@@ -1,0 +1,15 @@
+{
+  "name": "OSSMT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "cron": "node cron.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "cors": "^2.8.5",
+    "node-cron": "^3.0.2"
+  }
+}
